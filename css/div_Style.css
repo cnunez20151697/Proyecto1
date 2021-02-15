@@ -1,0 +1,28 @@
+.container-fluid{
+    background-color: rgb(236, 236, 236);
+}
+
+.container_cabeza{
+
+    text-align: center;
+}
+.container_general{
+    
+    margin-top: 15px;
+    text-align: justify;
+}
+
+.container_pie{
+    text-align: center;
+    
+}
+
+div hr{
+    
+    border-top: 5px dotted black;
+      
+  }
+
+
+
+
