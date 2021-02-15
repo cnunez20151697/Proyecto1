@@ -12,6 +12,11 @@
     text-align: justify;
 }
 
+.container_general .container_cabeza{
+
+    margin-bottom: 20px;
+}
+
 .container_pie{
     text-align: center;
     
@@ -21,6 +26,20 @@ div hr{
     
     border-top: 5px dotted black;
       
+  }
+
+  .container .row{
+      justify-content: center;
+  }
+
+  .container .row div{
+    margin-right: 5px;
+    border: outset rgb(216, 216, 216) 3px;
+  }
+
+  .container_general .container .carousel {
+      margin-top: 15px;
+      margin-bottom: 15px;
   }
 
 
