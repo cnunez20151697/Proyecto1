@@ -25,7 +25,13 @@ body{
 }
 */
 .nav-pills .nav-link.active{
+    
     background-color: rgb(86, 101, 115);
+}
+
+.nav-pills :hover .nav-link{
+    background-color: white;
+    
 }
 
 .container_cabeza{
@@ -34,23 +40,22 @@ body{
     background-color: rgb(52, 73, 94);
 }
 
+.container_cabeza .nav-pills{
+padding-top: 25px;
+}
+
 .container_cabeza img{
     width: 50px;
     height: 50px;
     margin-right: 10px;
-    margin-bottom: 1px;
+    padding-bottom: 10px;
 
 }
+
 
 .container_general{
-    
     margin-top: 15px;
     text-align: justify;
-}
-
-.container_general .container_cabeza{
-
-    margin-bottom: 20px;
 }
 
 .container_pie{
@@ -64,14 +69,92 @@ body{
       justify-content: center;
   }
 
-  .container .row div{
-    margin-right: 10px;
-    border: outset rgb(216, 216, 216) 0px;
-    border-radius: 10px;
-    width: 220px;
-    height: 220px;
-    background-color: rgb(253, 254, 254);
+  .container .container_dos .row div{
     
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgb(253, 254, 254);
+    transition: all 0.2s linear;
+      transform: scale(1.0);
+
+    
+  }
+
+  .container .container_tres .row div{
+      text-align: center;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: rgb(253, 254, 254);
+    transition: all 0.2s linear;
+    transform: scale(1.0);
+    
+  }
+
+
+
+
+  .container .container_tres .row .col-sm-2.Widget1{
+    background-image: url(/img/img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container .container_tres .row .col-sm-2.Widget2{
+    background-image: url(/img/img2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container .container_tres .row .col-sm-2.Widget3{
+    background-image: url(/img/img3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container .container_tres .row .col-sm-2.Widget4{
+    background-image: url(/img/img4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+
+  #division{
+
+    margin-right: 20px;
+  }
+
+  .container .container_uno .row div{
+    
+    margin-top: 20px;
+    width: 820px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: rgb(253, 254, 254);
+    transition: all 0.2s linear;
+    transform: scale(1.0);
+    
+    background-image: url(/img/Walking.png);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    
+  }
+
+  .container .container_uno .row div{
+     
+    display: flex;
+  }
+
+  .container .container_uno .row div p{
+      align-self: flex-end;
+  }
+  
+
+  .container .container_tres .row  :hover{
+      transition: all 0.2s linear;
+      transform: scale(1.1);
   }
 
   .container_general .container .carousel {
@@ -83,6 +166,22 @@ body{
  .map{
      margin-top: 15px;
      text-align: center;
+ }
+
+ .container_general .container .text p{
+     text-align: center;
+     font-size: small;
+     
+ }
+
+
+
+
+ #parrafos{
+     text-align: center;
+     font-size: larger;
+     font-family: 'El Messiri', sans-serif;
+     
  }
 
 
