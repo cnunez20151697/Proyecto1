@@ -29,14 +29,19 @@ body{
     background-color: rgb(86, 101, 115);
 }
 
+.nav-pills .nav-link{
+    transition: all 0.9s linear;
+}
 .nav-pills :hover .nav-link{
     background-color: white;
-    
+    transition: all 0.9s linear;
 }
 
-.container_cabeza{
+.container_cabeza .row{
+    width: 85%;
+    margin-left: 8%;
+    border-radius: 0 0 20px 20px;
     
-    text-align: center;
     background-color: rgb(52, 73, 94);
 }
 
